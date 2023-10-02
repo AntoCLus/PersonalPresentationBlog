@@ -1,0 +1,67 @@
+body{   
+    background-color: black;
+    
+       }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+  }
+  
+  p {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: .2px;
+    margin: 0;
+  }
+  .header {
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    transition: background-image 1s ease-in-out;
+}
+.header h1 {
+    color: #fff;
+}
+.footerpages{
+    color: #060606;
+    text-align: space-between; 
+    padding: 70px;
+    font-size: xx-large;
+}
+.footerpages.custom1{
+    background-image: url("./images/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footerpages.custom2{
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footerpages.custom3{
+    background-image: url("./images/pic04.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footerpages.custom4{
+    background-image: url("./images/4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footerpages a {
+    display: inline-block; 
+    margin-right: 20px; 
+    color: #060606; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.footerpages a:hover {
+    color: rgb(0, 55, 255); 
+}
+.footerpages2{
+    background-image: url("./images/3.jpg");
+}
